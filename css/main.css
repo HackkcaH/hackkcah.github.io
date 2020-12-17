@@ -15,14 +15,8 @@
       color: white;
 }
 body{
-  max-width: 540px;
   background:url("../images/image.jpg");
-  font-family: monospace;
-  margin: 0;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, 20%);
-  margin-bottom: 120px;
+  overflow-x: hidden;
 }
 .start1{
   transform: scale(1.7);
