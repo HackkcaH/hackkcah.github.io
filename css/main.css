@@ -16,7 +16,7 @@
 }
 body{
   background:url("../images/image.jpg");
-  overflow-x: hidden;
+  overflow-x: hidden!important;
 }
 .start1{
   transform: scale(1.7);
@@ -116,6 +116,7 @@ body{
   .start {
       width: 280px;
       margin-bottom: 260px;
+      margin-top: -200px;
   }
 }
 .row3, .row{
@@ -163,4 +164,22 @@ c{
 }
 g{
   float: right;
+}
+
+@media screen and (min-width: 200px) and (max-width: 450px){
+  .start{
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 380px){
+  .start{
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 370px){
+  .start{
+    margin-left: 25px;
+  }
 }
