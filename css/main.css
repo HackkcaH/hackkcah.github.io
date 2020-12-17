@@ -18,6 +18,11 @@ body{
   background:url("../images/image.jpg");
   overflow-x: hidden!important;
 }
+h3 img{
+  max-width: 80%;
+  border-width: 1px;
+  border-style: solid;
+}
 .start1{
   transform: scale(1.7);
 }
